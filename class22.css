@@ -103,14 +103,13 @@ li {
 }
 
 .jobimgdiv>img {
-    width: 545px;
-    height: 420px;
-
+    width: 30vw;
+  
 
 }
 
 .jobtextdiv {
-    font-size: 30px;
+    font-size: 20px;
     padding: 0 10px 0 10px;
 }
 
@@ -136,7 +135,7 @@ li {
     display: flex;
     flex-direction: column;
     height: 100vh;
-    background-color: #aaa3a3;
+    background-color: #D9D9D9;
 }
 
 #contactMajorDiv {
@@ -178,4 +177,85 @@ form {
     font-size: 23px;
     padding: 20px 0;
     text-align: center;
+}
+/* media * */
+
+
+
+
+@media screen and (max-width:576px) {
+    
+    #navarsection {
+      flex-direction: column;
+    }
+    #bannersection {
+        height: 20vh;
+    }
+    #aboutmaindiv {
+        justify-content: center;
+       flex-direction: column;
+        gap: 10px;
+        padding: 5px;
+        align-items: center;
+    }
+   
+    #aboutus {
+        font-size: 15px;
+    }
+  
+#aboutimg>img {
+    height: 200px;
+    width: 200px;
+    margin: 5px;
+}
+
+
+#jobsection {
+  
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.jobimgdiv>img {
+    width: 75vw;
+}
+
+#contactImgDiv>img {
+    height: 250px;
+
+}
+#contactMajorDiv {
+    height: 70vh;
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+#contactTextDiv>form>input {
+    padding: 10px 100px 10px 5px;
+    font-size: 10px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+  
+}
+
+#ContactSection {
+   
+    height: 110vh;
+   
+}
+#lastbar {
+   
+    font-size: 15px;
+    padding: 5px 0;
+  
+}
+
+
+
+
+
 }
